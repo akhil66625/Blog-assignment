@@ -1,0 +1,62 @@
+div#floatingActionButton {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  background: #0aaed2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  align-content: center;
+  color: white;
+}
+
+div#dashboard .user-info {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+div#dashboard .user-info a {
+  margin: 0px auto 0;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+}
+
+div#dashboard button {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #ff0000;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#post {
+  width: 100%;
+}
+.buttonContainer span {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.myPost {
+  margin: 20px;
+  font-family: fantasy;
+}
+
+.noPost {
+    text-align: center;
+    margin: 200px 20px;
+    font-weight: 700;
+}
